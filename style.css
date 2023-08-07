@@ -1,0 +1,103 @@
+.text-box>h3:first-child{
+    color: pink;
+}
+
+#greycol{
+    color: grey;
+
+   
+}
+
+div>div>p{
+    color: red;
+}
+
+div>div+div+h3+p{
+    color: green;
+}
+
+.yellow{
+    color: yellow;
+}
+
+ul{
+    list-style: none;
+}
+
+ul>li>h3{
+    background: #e0e9ff;
+    display: inline;
+}
+
+ul>li>p{
+    text-indent: 10px;
+}
+
+.cat>img{
+    display: none;
+    padding: 20px;
+    width: 200px;
+}
+
+.cat:hover img{
+    display: block;
+}
+
+.cat>p{
+    color: grey;
+}
+
+.sub:hover p.insub{
+    display: block;
+}
+
+.insub{
+    display: none;
+    padding: 3px;
+    text-indent: 20px;
+}
+
+div.sub>p:first-child{
+    text-indent: 10px;
+}
+
+p.selection::selection{
+    background: #cb92da;
+    color: rgb(255, 255, 255);
+}
+
+li.nth:nth-child(4) p:nth-child(even){
+    color: #92abda;
+}
+
+li.nth2:nth-child(7) p:nth-child(even){
+    color: #a6da92;
+}
+
+ul>li:nth-child(3) p:nth-child(odd){
+    color: #c46bd6;
+}
+
+.sha{
+    text-shadow: 1px 2px 10px rgba(200,115,200,5);
+}
+
+.space{
+    letter-spacing: 4px;
+}
+
+div>ul>li:nth-child(5) div:empty{
+
+    height: 10em;
+    margin: 10px 1550px 20px 10px;
+    border: outset rgb(231, 255, 231);
+}
+
+@font-face {
+    font-family: 'Ronsttom';
+    src: url('./fonts/Ronsttom\ Dollast.otf');
+}
+
+li:first-letter{
+    font-family: 'Ronsttom';
+}
