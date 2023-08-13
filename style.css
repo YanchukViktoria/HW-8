@@ -101,3 +101,21 @@ div>ul>li:nth-child(5) div:empty{
 li:first-letter{
     font-family: 'Ronsttom';
 }
+
+button:disabled{
+
+}
+
+a:link{
+    color: bisque;
+    display: block;
+    text-indent: 10px;
+}
+
+li:nth-child(1)>h3+p+p+p+div>p+p+p>a{
+    text-indent: 20px;
+}
+
+.link:visited{
+    font-weight: bold;
+}
